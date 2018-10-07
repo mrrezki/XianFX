@@ -1,5 +1,5 @@
 # ForeignExchangePlatform
-### FX Trading - project is online: http://mlipski.site:8080/trading_platform-1.1.0/
+### FX Trading 
 
 [![Build Status](https://travis-ci.com/mlipski00/ForeignExchangePlatform.svg?branch=Branch-without-message-broker)](https://travis-ci.com/mlipski00/ForeignExchangePlatform)
 
@@ -19,7 +19,7 @@ Functionality:
 * Interbank currency prices provided by Oanda Forex Broker
 * Admin panel: platform parameterization and user update (balance) with users internal message notification
 * Logging users activity and price quotations into flat file
-* Sending quotations to external services via message broker (message receivers are in separate GitHub repository: https://github.com/mlipski00/ForexProjectMessageBroker)
+* Sending quotations to external services via message broker (message receivers are in separate GitHub repository: 
 
 Repository contains Docker image build file (with CentOS Linux distribution image layer) - "Dockerfile".
 
